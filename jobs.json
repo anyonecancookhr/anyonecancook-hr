@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Store Manager Trainee",
+    "location": "Quezon City",
+    "poster": "posters/store_mt.png",
+    "description": "A leadership training program designed for future store managers.",
+    "requirements": [
+      "Graduate of any 4-year course",
+      "1-2 years leadership or service experience",
+      "Passion for serving people and managing teams"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "Management Trainee \u2013 Food Science",
+    "location": "Pasig City",
+    "poster": "posters/mt_foodscience.png",
+    "description": "A fast-track program for aspiring leaders in quality assurance, planning, and purchasing.",
+    "requirements": [
+      "Graduate of Food Science, Nutrition, Chemistry, or related courses",
+      "Interest in production, QA, or product development",
+      "Strong curiosity and commitment to learning"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "Learning & Development Management Trainee",
+    "location": "Pasig City",
+    "poster": "posters/mt_ld.png",
+    "description": "A hands-on learning role focused on people growth, leadership programs, and employee engagement.",
+    "requirements": [
+      "Graduate of Psychology, Education, or HR Management",
+      "Excellent communication and facilitation skills",
+      "Enjoys designing learning experiences"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "Design Operations Junior Engineer",
+    "location": "Pasig City",
+    "poster": "posters/design_ops.png",
+    "description": "Support our bakery and store design projects through technical planning, layout, and coordination.",
+    "requirements": [
+      "Graduate of Architecture, Industrial Engineering, or related field",
+      "Proficient in CAD tools and design coordination",
+      "Detail-oriented and organized"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "Retail Operations Management Trainee",
+    "location": "Various Locations",
+    "poster": "posters/retail_ops.png",
+    "description": "An immersive role to prepare future leaders for our store operations team.",
+    "requirements": [
+      "Graduate of any business-related course",
+      "Experience in customer service or retail an advantage",
+      "Willing to be assigned across different branches"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "Product & Planning Junior Associate",
+    "location": "Pasig City",
+    "poster": "posters/product_plan.png",
+    "description": "Work closely with operations to plan and track product performance, inventory, and schedules.",
+    "requirements": [
+      "Graduate of Business, Engineering, or Statistics",
+      "Analytical and detail-oriented",
+      "Comfortable with spreadsheets and data tracking"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  },
+  {
+    "title": "QA & Production Junior Associate",
+    "location": "Pasig City",
+    "poster": "posters/qa_prod.png",
+    "description": "Support quality checks, documentation, and production coordination across our commissaries.",
+    "requirements": [
+      "Graduate of Food Science, Biology, or Chemistry",
+      "Organized and process-driven",
+      "Willing to learn hands-on in production areas"
+    ],
+    "apply_email": "hrpurpleoven2@gmail.com"
+  }
+]

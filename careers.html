@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers | Anyone Can Cook HR</title>
+  <link rel="icon" href="favicon.png" type="image/png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo">
+        <img src="logo.png" alt="Anyone Can Cook Logo" />
+        <h1>ANYONE CAN COOK HR</h1>
+      </div>
+      <nav>
+        <a href="index.html">About Us</a>
+        <a href="careers.html" class="active">Careers</a>
+        <a href="apply.html">Apply Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="careers">
+      <h2>Careers</h2>
+      <p>Discover opportunities to grow with our family of brands.</p>
+
+      <div id="job-list" class="job-grid">
+        <!-- Jobs from JSON will load here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with ♥ by the HR Team 💜 | © 2025 Anyone Can Cook</p>
+  </footer>
+
+  <script>
+    async function loadJobs() {
+      try {
+        const response = await fetch('jobs.json');
+        const jobs = await response.json();
+        const container = document.getElementById('job-list');
+        jobs.forEach(job => {
+          const jobCard = document.createElement('div');
+          jobCard.className = 'job-card';
+
+          jobCard.innerHTML = `
+            <img src="${job.poster}" alt="${job.title} Poster" class="job-poster"/>
+            <h3>${job.title}</h3>
+            <p><strong>Location:</strong> ${job.location}</p>
+            <p>${job.description}</p>
+            <ul>
+              ${job.requirements.map(req => `<li>${req}</li>`).join('')}
+            </ul>
+            <a class="apply-btn" href="mailto:${job.apply_email}?subject=Application%20for%20${encodeURIComponent(job.title)}">
+              Apply Now
+            </a>
+          `;
+          container.appendChild(jobCard);
+        });
+      } catch (error) {
+        console.error('Error loading jobs:', error);
+        document.getElementById('job-list').innerHTML = '<p>Unable to load job openings at the moment.</p>';
+      }
+    }
+
+    loadJobs();
+  </script>
+</body>
+</html>
